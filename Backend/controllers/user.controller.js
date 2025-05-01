@@ -13,7 +13,7 @@ module.exports.regiterUser=async (req, res,next) => {
     }
 
     const {email, password, fullname} = req.body;
-    const isUserAlreadyExist = await captainModel.findOne({ email });
+    const isUserAlreadyExist = await UserModel.findOne({ email });
         if (isUserAlreadyExist) {
             return res.status(400).json({ message: 'Captain already exists' });
     }
