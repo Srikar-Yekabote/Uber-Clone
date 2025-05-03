@@ -13,7 +13,10 @@
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.4",
     "axios": "^1.9.0",
+<<<<<<< HEAD
     "gsap": "^3.13.0",
+=======
+>>>>>>> 77c4d2fac920bd51164feaaa2a561f5cdbb47a75
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.3",
