@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 import React,{useContext,useEffect, useState} from "react";
 import UserContext, { UserDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-=======
-import React,{useContext,useEffect} from "react";
-import UserContext, { UserDataContext } from "../context/UserContext";
-import { useNavigate } from "react-router-dom";
-
->>>>>>> 77c4d2fac920bd51164feaaa2a561f5cdbb47a75
 const UserProtectWrapper = ({
     children
 })=>{
